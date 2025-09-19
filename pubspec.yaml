@@ -1,0 +1,55 @@
+name: proxmon
+description: ProxMon - Proxy Monitor Application (Rebuilt)
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0-beta13+343
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Internationalization
+  easy_localization: ^3.0.0
+  
+  # Web view functionality (based on original app dependencies)
+  flutter_inappwebview: ^5.0.0
+  
+  # URL launcher
+  url_launcher: ^6.0.0
+  
+  # Material Design Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  # Assets recovered from original APK
+  assets:
+    - assets/translations/
+    - assets/fonts/
+  
+  # Fonts recovered from original APK
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/Product Sans Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Product Sans Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Product Sans Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Product Sans Bold Italic.ttf
+          weight: 700
+          style: italic
+    - family: MaterialDesignIcons
+      fonts:
+        - asset: assets/fonts/materialdesignicons-webfont.ttf

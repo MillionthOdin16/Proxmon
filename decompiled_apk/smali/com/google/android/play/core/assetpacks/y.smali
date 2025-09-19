@@ -1,0 +1,40 @@
+.class final synthetic Lcom/google/android/play/core/assetpacks/y;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/google/android/play/core/assetpacks/z;
+
+
+# static fields
+.field static final a:Lcom/google/android/play/core/assetpacks/z;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/google/android/play/core/assetpacks/y;
+
+    invoke-direct {v0}, Lcom/google/android/play/core/assetpacks/y;-><init>()V
+
+    sput-object v0, Lcom/google/android/play/core/assetpacks/y;->a:Lcom/google/android/play/core/assetpacks/z;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(ILjava/lang/String;)I
+    .locals 0
+
+    return p1
+.end method
